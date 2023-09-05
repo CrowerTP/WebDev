@@ -54,8 +54,10 @@
 
       <% } %>
 
+      <% if (locals.isError) { %> 
       <div id="tag-error" class="tag-error">
-        <!-- Show any errors that were sent from the backend -->
+        <h2>No activities that match your criteria.</h2>
+        <% } %>
       </div>
 
     </section>
