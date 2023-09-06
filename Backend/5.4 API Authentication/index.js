@@ -65,17 +65,6 @@ app.get("/bearerToken", async (req, res) => {
     console.error("Failed to make request" , error.message);
     res.render("index.ejs" , { content: "Failed to make request"});
   }
-  //TODO 5: Write your code here to hit up the /secrets/{id} endpoint
-  //and get the secret with id of 42
-  //HINT: This is how you can use axios to do bearer token auth:
-  // https://stackoverflow.com/a/52645402
-  /*
-  axios.get(URL, {
-    headers: { 
-      Authorization: `Bearer <YOUR TOKEN HERE>` 
-    },
-  });
-  */
 });
 
 app.listen(port, () => {
