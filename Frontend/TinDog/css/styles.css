@@ -1,0 +1,191 @@
+/* General items */
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+
+
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+
+/* Headings */
+
+.main-heading {
+    font-weight: 900; 
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+.feature-heading {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+/* Sections */
+
+.colored-section {
+    background-color: #ff4c68;
+    color: #ffffff;
+}
+
+.white-section {
+    background-color: #ffffff;
+}
+
+/* Title section */
+
+#title{
+    text-align: left;
+}
+
+.navbar{
+    padding: 0 0 4.5rem 0;
+}
+
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
+}
+
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+
+
+.dog_pic{
+    width: 20%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 23%;
+}
+
+@media (max-width: 990px) {
+
+    #title {
+        text-align: center;
+    }
+    
+    .dog_pic {
+        transform: rotate(0deg);
+        position: relative;
+        right: 0;
+        width: 50%;
+    }
+}
+
+/* Features section */
+
+#features{
+    position: relative;
+}
+
+.cont-features{
+    padding: 7% 25%;
+}
+
+.fa-solid{
+    color: #ef8172;
+    padding-bottom: 1rem;
+}
+
+.fa-solid:hover{
+    color: #ff4c68;
+    
+}
+
+/* Testimonials section */
+
+#testimonials {
+    background-color: #ef8172;
+}
+
+.carousel-inner{
+    padding: 7% 15%;
+}
+
+.testimonial-text {
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    padding: 20px;
+}
+
+.press-img{
+    width: 10%;
+    margin: 20px 20px 50px;
+}
+
+/* Press section */
+
+#press{
+    background-color: #ef8172;
+    padding-bottom: 3%; 
+}
+
+
+/* Pricing section */
+
+#pricing{
+    padding: 100px;
+}
+
+.pricing-cardnames {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.section-header {
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.pricing-column{
+    padding: 3% 2%;
+}
+
+
+/* Footer section*/
+
+#footer{
+    font-weight: 400;
+    padding: 5% 0%;
+}
+
+.cta-text{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 2.5rem;
+    padding: 6% 30% 2%;
+}
+
+.cta-button{
+    margin: 1% 1% 3%;
+}
