@@ -16,13 +16,15 @@ app.get("/random", ( req , res ) => {
 
 //2. GET a specific joke
 app.get("/jokes/:id", ( req , res ) => {
-  jokes.forEach(joke => {
-    if (joke.id == req.params.id)
-    {
-      res.json(joke);
-    }
+  const id = +req.params.id;
+  const jokeIndex = jokes.findIndex((joke) => joke.id === id );
+  if (jokeIndex !== -1){
+    res.json(jokes[jokeIndex]);
+  }else{
+    res.send("There is no such element with the given ID");
+  }
+
   });
-})
 
 //3. GET a jokes by filtering on the joke type
 app.get("/filter", ( req , res ) => {
@@ -38,14 +40,76 @@ app.get("/filter", ( req , res ) => {
 })
 
 //4. POST a new joke
+app.post("/jokes", ( req , res ) => {
+  let newJoke = 
+  {
+    id: jokes.length + 1,
+    jokeText: req.body.text,
+    jokeType: req.body.type
+  };
+  jokes.push(newJoke);
+  res.json(newJoke);
+})
 
 //5. PUT a joke
+app.put("/jokes/:id", ( req , res ) => {
+  const id = req.params.id;
+
+  const newJoke = 
+  {
+    id: +req.params.id,
+    jokeText: req.body.text,
+    jokeType: req.body.type
+  };
+  const jokeIndex = jokes.findIndex((joke) => joke.id === id );
+  jokes[jokeIndex] = newJoke;
+  res.json(newJoke);
+})
+
 
 //6. PATCH a joke
+app.patch("/jokes/:id", ( req , res ) => {
+  const id = +req.params.id;
+  const text = req.body.text;
+  const type = req.body.type;
+
+  const jokeIndex = jokes.findIndex((joke) => joke.id === id);
+  if (text) { jokes[jokeIndex].jokeText = text };
+  if (type) { jokes[jokeIndex].jokeType = type };
+
+  const newJoke = jokes[jokeIndex];
+  res.json(newJoke);
+  
+
+})
 
 //7. DELETE Specific joke
+app.delete("/jokes/:id", ( req , res ) => {
+  const id = +req.params.id;
+  const jokeIndex = jokes.findIndex((joke) => joke.id === id);
+  if (jokeIndex !== -1){
+    jokes.splice(jokeIndex, 1);
+    res.sendStatus(200);
+  }else{
+    res
+      .status(404)
+      .json({error: `Joke with id: ${id} not found. No jokes were deleted.`});
+  }
+  
+})
 
 //8. DELETE All jokes
+app.delete("/all", ( req , res ) => {
+  const api_key = req.query.key;
+  if (api_key === masterKey){
+    jokes = [];
+    res.send("Everything was deleted.");
+  }else{
+    res
+      .status(401)
+      .json({error: "Unauthorized API key."});      
+  }
+})
 
 app.listen(port, () => {
   console.log(`Successfully started server on port ${port}.`);
