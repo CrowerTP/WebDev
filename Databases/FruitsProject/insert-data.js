@@ -1,7 +1,8 @@
 import { MongoClient } from "mongodb";
  
 // Replace the following with your Atlas connection string                                                                                                                                        
-const url = "mongodb+srv://Cluster51173:****@atlascluster.olnshkb.mongodb.net/?retryWrites=true&w=majority"
+//const url = "mongodb+srv://Cluster51173:****@atlascluster.olnshkb.mongodb.net/?retryWrites=true&w=majority"
+const url = "mongodb://localhost:27017";
 const client = new MongoClient(url);
  
  // Reference the database to use

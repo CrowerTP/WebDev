@@ -1,4 +1,4 @@
-import { MongoClient } from "mongodb";
+import mongoose from "mongoose";
 
 // Replace the uri string with your connection string.
 const uri = "mongodb://localhost:27017";
