@@ -1,23 +1,26 @@
 import mongoose from "mongoose";
 
 // Replace the uri string with your connection string.
-const uri = "mongodb://localhost:27017";
+const uri = "mongodb://localhost:27017/clientsDB";
 
-const client = new MongoClient(uri);
+main().catch(err => console.log(err));
 
-async function run() {
-  try {
-    const database = client.db('shopDB');
-    const products = database.collection('products');
-
-    // Query for a movie that has the title 'Back to the Future'
-    const query = { _id: 1 };
-    const product = await products.findOne(query);
-
-    console.log(product);
-  } finally {
-    // Ensures that the client will close when you finish/error
-    await client.close();
-  }
+async function main() {
+  await mongoose.connect(uri);
 }
-run().catch(console.dir);
+
+const clientSchema = new mongoose.Schema({
+  name: String,
+  age: Number,
+})
+
+const Person = mongoose.model("Person", fruitSchema);
+
+const fruit = new Fruit({
+  name: "Apple",
+  rating: 7,
+  review: "Decent kind of fruit"
+});
+
+//fruit.save();
+

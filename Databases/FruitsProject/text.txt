@@ -1,0 +1,1 @@
+db.fruits.insertOne({name: "Mango",rating: 5,review: "This was a really fine Mango!!"})
