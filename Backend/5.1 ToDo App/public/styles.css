@@ -1,0 +1,17 @@
+input:checked+p {
+    text-decoration: line-through;
+    text-decoration-color: #A683E3;
+}
+  
+input[type="checkbox"] {
+    margin: 20px;
+}
+
+p {
+    margin: 0;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 200;
+    color: #00204a;
+}
+
