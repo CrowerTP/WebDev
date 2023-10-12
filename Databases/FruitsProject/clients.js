@@ -27,7 +27,7 @@ const product = new Product({
     stock: 12
 });
 
-//saveDB(product);
+saveDB(product);
 
 const clientsSchema = mongoose.Schema({
     name: {
