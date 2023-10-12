@@ -1,11 +1,12 @@
 import mongoose from "mongoose";
 
 
-const taskSchema = new mongoose.Schema({
+export const taskSchema = new mongoose.Schema({
     text: String
   })
   
-const Task = mongoose.model("Task", taskSchema);
+export const Task = mongoose.model("Task", taskSchema);
+export const WorkTask = mongoose.model("WorkTask", taskSchema);
 
 
 export async function main() {

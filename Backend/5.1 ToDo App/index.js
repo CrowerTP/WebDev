@@ -1,30 +1,33 @@
 import express from "express";
 import bodyParser from "body-parser";
-import { main } from "./dbcon.js";
-import Task from "./dbcon.js";
+import { main, Task, WorkTask, taskSchema } from "./dbcon.js";
 import mongoose from "mongoose";
 
 const app = express();
 const port = 3000;
-const dailyTasks = [];
-const workTasks = [];
+let dailyTasks = [];
+let workTasks = [];
 
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static("public"));
 main().catch(err => console.log(err));
 
 
-const taskSchema = mongoose.Schema({
-  text: String
-})
-
-const Task = mongoose.model("Task", taskSchema);
-
-app.get("/" , ( req , res ) => {
+app.get("/" , async ( req , res ) => {
+  dailyTasks = [];
+  const tasks = await Task.find();
+  tasks.forEach(task => {
+    dailyTasks.push(task.text);
+  });
   res.render("index.ejs" , {dailyArray : dailyTasks});
 })
 
-app.get("/work", ( req , res ) => {
+app.get("/work", async ( req , res ) => {
+  workTasks = [];
+  const tasks = await WorkTask.find();
+  tasks.forEach(task => {
+    workTasks.push(task.text);
+  });
   res.render("work.ejs" , {workArray : workTasks});
 })
 
@@ -32,16 +35,16 @@ app.post("/submit", ( req , res) => {
   const textSubmitted = new Task({
     text: req.body.input_text
   })
-  await textSubmitted  textSubmitted.save();
-  const renderedText = req.body.input_text;
-  dailyTasks.push(renderedText);
-  res.render("index.ejs", {dailyArray : dailyTasks});
+  textSubmitted.save();
+  res.redirect("/");
 })
 
 app.post("/worksubmit", ( req , res ) => {
-  const renderedText = req.body.input_text;
-  workTasks.push(renderedText);
-  res.render("work.ejs", {workArray : workTasks});
+  const textSubmitted = new WorkTask({
+    text: req.body.input_text
+  })
+  textSubmitted.save();
+  res.redirect("/work");
 })
 
 app.listen(port, () => {
