@@ -1,5 +1,7 @@
 import express from "express";
 import bodyParser from "body-parser";
+import { main } from "./dbcon.js";
+import Task from "./dbcon.js";
 import mongoose from "mongoose";
 
 const app = express();
@@ -9,6 +11,8 @@ const workTasks = [];
 
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static("public"));
+main().catch(err => console.log(err));
+
 
 const taskSchema = mongoose.Schema({
   text: String
@@ -25,6 +29,10 @@ app.get("/work", ( req , res ) => {
 })
 
 app.post("/submit", ( req , res) => {
+  const textSubmitted = new Task({
+    text: req.body.input_text
+  })
+  await textSubmitted  textSubmitted.save();
   const renderedText = req.body.input_text;
   dailyTasks.push(renderedText);
   res.render("index.ejs", {dailyArray : dailyTasks});
