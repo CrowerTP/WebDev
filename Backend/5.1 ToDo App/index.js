@@ -17,7 +17,7 @@ app.get("/" , async ( req , res ) => {
   dailyTasks = [];
   const tasks = await Task.find();
   tasks.forEach(task => {
-    dailyTasks.push(task.text);
+    dailyTasks.push(task);
   });
   res.render("index.ejs" , {dailyArray : dailyTasks});
 })
@@ -26,7 +26,7 @@ app.get("/work", async ( req , res ) => {
   workTasks = [];
   const tasks = await WorkTask.find();
   tasks.forEach(task => {
-    workTasks.push(task.text);
+    workTasks.push(task);
   });
   res.render("work.ejs" , {workArray : workTasks});
 })
@@ -44,6 +44,17 @@ app.post("/worksubmit", ( req , res ) => {
     text: req.body.input_text
   })
   textSubmitted.save();
+  res.redirect("/work");
+})
+
+app.post("/delete", async ( req , res ) => {
+  await Task.deleteOne({_id: req.body.checkThis});
+  res.redirect("/");
+})
+
+app.post("/deleteWork", async ( req , res ) => {
+  console.log(req.body.checkThis);
+  await WorkTask.deleteOne({_id: req.body.checkThis});
   res.redirect("/work");
 })
 

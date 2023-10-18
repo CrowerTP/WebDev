@@ -1,7 +1,7 @@
-input:checked+p {
+/* input:checked+p {
     text-decoration: line-through;
     text-decoration-color: #A683E3;
-}
+} */
   
 input[type="checkbox"] {
     margin: 20px;
@@ -14,4 +14,3 @@ p {
     font-weight: 200;
     color: #00204a;
 }
-

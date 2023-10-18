@@ -28,14 +28,18 @@
           <div class="tab-content" id="ex1-content">
             <div class="tab-pane fade show active" id="ex1-tabs-1" role="tabpanel" aria-labelledby="ex1-tab-1">
               <% if (locals.dailyArray) { %> 
-              <ul class="list-group mb-0">
-                <% dailyArray.forEach((dailyTask) =>{  %>
-                  <li class="list-group-item d-flex align-items-center border-0 mb-2 rounded"  style="background-color: #f4f6f7;">    
-                    <input class="form-check-input me-2" type="checkbox" value="" aria-label="..."/>   
-                    <p><%= dailyTask %></p>
-                  </li>  
-                <%   })    %>                      
-              </ul>
+              
+                <ul class="list-group mb-0">
+                  <% dailyArray.forEach((dailyTask) =>{  %>
+                    <form action="/delete" method="post">
+                      <li class="list-group-item d-flex align-items-center border-0 mb-2 rounded"  style="background-color: #f4f6f7;">    
+                        <input name="checkThis" class="form-check-input me-2" type="checkbox" onchange="this.form.submit()" value="<%= dailyTask._id %>" aria-label="..."/>   
+                        <p><%= dailyTask.text %></p>
+                      </li>
+                    </form>  
+                  <%   })    %>
+                </ul>
+              
               <% } %>
             </div>
           </div>
