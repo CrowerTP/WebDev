@@ -1,7 +1,6 @@
 import express from "express";
 import bodyParser from "body-parser";
 import { main, Task, WorkTask, taskSchema } from "./dbcon.js";
-import mongoose from "mongoose";
 
 const app = express();
 const port = 3000;
@@ -48,13 +47,12 @@ app.post("/worksubmit", ( req , res ) => {
 })
 
 app.post("/delete", async ( req , res ) => {
-  await Task.deleteOne({_id: req.body.checkThis});
+  await Task.findByIdAndDelete(req.body.checkThis);
   res.redirect("/");
 })
 
 app.post("/deleteWork", async ( req , res ) => {
-  console.log(req.body.checkThis);
-  await WorkTask.deleteOne({_id: req.body.checkThis});
+  await WorkTask.findByIdAndDelete(req.body.checkThis);
   res.redirect("/work");
 })
 
