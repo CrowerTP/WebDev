@@ -13,7 +13,7 @@
   <h1>Add a Family Member</h1>
   <form action="/new" method="post">
     <p>What's your name?</p>
-    <input type="text" name="name">
+    <input type="text" name="name" placeholder="<%= locals.error ? error :  ''%>">
 
     <p>Pick a color:</p>
     <input type="radio" name="color" id="red" value="red" />

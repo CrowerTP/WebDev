@@ -16,10 +16,10 @@
         <%= user.name %>
       </label>
       <% }); %>
-
-        <input type="submit" name="add" value="new" id="tab">
-        <label for="tab">Add Family Member</label>
-
+  </form>
+  <form class="tab-view tab-view-height-auto" action="/new" method="post">
+    <input type="submit" name="add" value="new" id="tab">
+    <label for="tab">Add Family Member</label>
   </form>
 
   <form action="/add" method="post">
