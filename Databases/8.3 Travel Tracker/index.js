@@ -13,7 +13,7 @@ const db = new pg.Client({
   port: '5432',
   database: 'postgres',
   user: 'postgres',
-  password: 'pass'
+  password: 'a84865a84865'
 });
 
 await db.connect();
