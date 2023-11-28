@@ -25,7 +25,8 @@ app.get("/" , async ( req , res ) => {
 })
 
 app.get("/work", async ( req , res ) => {
-  res.render("work.ejs");
+  const workTasks = await GetWorkTasks();
+  res.render("work.ejs", {workArray: workTasks});
 })
 
 app.post("/submit", ( req , res) => {
@@ -52,6 +53,13 @@ async function GetDailyTasks(){
   let result = await db.query("SELECT * FROM dailytasks");
   dailyTasks = result.rows;
   return dailyTasks;
+}
+
+async function GetWorkTasks(){
+  let workTasks = [];
+  let result = await db.query("SELECT * FROM worktasks");
+  workTasks = result.rows;
+  return workTasks;
 }
 
 app.listen(port, () => {
