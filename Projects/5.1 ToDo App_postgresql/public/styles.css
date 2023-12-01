@@ -88,10 +88,6 @@ border: none;
 background: none;
 }
 
-input.edit {
-    width: 1100px;
-}
-
 .icon {
 height: 20px;
 }
@@ -123,3 +119,11 @@ color: white;
 text-align: center;
 }
 
+.maincard {
+    width: 50%;
+}
+
+.maindiv {
+    display: grid;
+    justify-items: center;
+}

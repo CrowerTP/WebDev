@@ -39,7 +39,7 @@
                           </p>
                           <form class="edit" action="/edit" method="post">
                             <input type="hidden" name="updatedItemId" value="<%= dailyTask.id %>">
-                            <input class="form-control" id="input<%=dailyTask.id%>" type="text" name="updatedItemTitle" value="<%= dailyTask.task %>" autocomplete="off"
+                            <input class="edit" id="input<%=dailyTask.id%>" type="text" name="updatedItemTitle" value="<%= dailyTask.task %>" autocomplete="off"
                               autofocus="true" hidden="true" />
                             <button id="done<%=dailyTask.id%>" class="edit" type="submit" hidden><img class="icon"
                                 src="/assets/icons/check-solid.svg" alt="tick image"></button>
