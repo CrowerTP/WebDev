@@ -1,4 +1,4 @@
-import 'dotenv/config';
+
 import express from "express";
 import bodyParser from "body-parser";
 import crypto from "crypto";
@@ -17,8 +17,8 @@ app.use(bodyParser.urlencoded({ extended: true }));
 const db = new pg.Client({
     user: "postgres",
     host: "localhost",
-    database: "security",
-    password: process.env.DBPASS,
+    database: "crypto",
+    password: "a84865a84865",
     port: 5432,
   });
   db.connect();
