@@ -1,6 +1,7 @@
 import 'dotenv/config';
 import express from "express";
 import bodyParser from "body-parser";
+import bcrypt from "bcrypt";
 import pg from "pg";
 import sha256 from "sha-256-js";
 
