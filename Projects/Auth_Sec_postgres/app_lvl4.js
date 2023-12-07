@@ -3,10 +3,10 @@ import express from "express";
 import bodyParser from "body-parser";
 import bcrypt from "bcrypt";
 import pg from "pg";
-import sha256 from "sha-256-js";
 
 const app = express();
 const port = 3000;
+const saltRounds = 10;
 
 app.use(bodyParser.urlencoded({ extended: true })); 
 
@@ -31,9 +31,10 @@ app.get("/register", ( req , res ) => {
 app.post("/register", async( req , res ) => {
     const email = req.body.email;
     const password = req.body.password;
-    const hw = hash(password);
     try {
-        let result = await db.query(`INSERT INTO user_data (email, password) VALUES ('${email}','${hw}');`);
+        bcrypt.hash(password, saltRounds, async function(err,hash){
+            await db.query(`INSERT INTO user_data (email, password) VALUES ('${email}','${hash}');`);
+        });
         res.render("register.ejs");
     } catch (error) {
         const message = error.message;
@@ -56,8 +57,8 @@ app.post("/login", async( req , res ) => {
     try {
         let result = await db.query(`SELECT email,password FROM public.user_data WHERE email='${email_form}'; `);
         const hashed_pass_db = result.rows[0].password;
-        const hashed_pass_form = hash(password_form);
-        if (hashed_pass_db === hashed_pass_form){
+        const match = await bcrypt.compare(password_form, hashed_pass_db);
+        if(match){
             res.render("secrets.ejs");
         }else{
             res.render("login.ejs", {error : 'Password is not valid'});
@@ -81,17 +82,7 @@ app.get("/logout", ( req , res) => {
 
 
 
-
-
-
-
 //--------------------------------------------------------------------------- Server connection ---------------------------------------------------------//
-
-
-function hash(plaintext) {
-    const hashedText = sha256(plaintext);
-    return hashedText;
-}
 
 
 app.listen(port, () => {
