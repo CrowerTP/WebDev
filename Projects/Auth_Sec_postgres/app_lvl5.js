@@ -1,8 +1,11 @@
 import 'dotenv/config';
 import express from "express";
 import bodyParser from "body-parser";
-import bcrypt from "bcrypt";
 import pg from "pg";
+import passport from "passport";
+import bcrypt from "bcrypt";
+import session from "express-session";
+import { Strategy as LocalStrategy } from 'passport-local';
 
 const app = express();
 const port = 3000;
@@ -19,6 +22,20 @@ const db = new pg.Client({
   });
   db.connect();
 
+module.exports = initialize;
+
+app.use(
+session({
+    secret: process.env.SESSION_SECRET,
+    resave: false,
+    saveUninitialized: false,
+    store: new pgSession({
+    conString: `postgres://postgres:${process.env.DBPASS}@localhost:5432/crypto`,
+    }),
+})
+);
+
+//----------------------------------------------------------------------- Endpoints -----------------------------------------------------------//
 
 app.get("/", ( req , res ) => {    
     res.render("home.ejs");
@@ -82,8 +99,32 @@ app.get("/logout", ( req , res) => {
 
 
 
-//--------------------------------------------------------------------------- Server connection ---------------------------------------------------------//
+//--------------------------------------------------------------------------- Server connection and functions---------------------------------------------------------//
 
+
+function initialize(passport, getUserByEmail, getUserById) {
+    const authenticateUser = async (user_email, password, done) => {
+        const user = await getUserByEmail(user_email);
+        if (user.length == 0) {
+        return done(null, false, { message: 'No user with that email' });
+        }
+        try {
+        if (await bcrypt.compare(password, email[0].password)) {
+            return done(null, email[0]);
+        } else {
+            return done(null, false, { message: 'Password incorrect' });
+        }
+        } catch (e) {
+        return done(e);
+        }
+    };
+    passport.use(new LocalStrategy({ usernameField: 'email' }, authenticateUser));
+    passport.serializeUser((user, done) => done(null, user.id));
+    passport.deserializeUser(async (id, done) => {
+        const user = await getUserById(id);
+        return done(null, user[0]);
+    });
+    }
 
 app.listen(port, () => {
   console.log(`Listening on port ${port}`);
