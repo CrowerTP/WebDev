@@ -36,44 +36,37 @@ const restaurant = {
     );
   },
 
-  orderPasta: function (ing1, ing2, ing3) {
+  orderPasta: function (ing1 = "sour", ing2 = "water", ing3 = "egg") {
     console.log(
       `Here is your delicious pasta that contains ${ing1}, ${ing2} and ${ing3}`
     );
   },
 };
 
-// SPREAD because ... is on the RIGHT side of =
-const arr = [1, 2, ...[3, 4]];
-
-// REST, because ... is on the LEFT side of =
-const [a, b, ...others] = [1, 2, 3, 4, 5, 6];
-console.log(a, b, others);
-
-// Arrays
-const [food1, , food3, ...otherFood] = [
-  ...restaurant.starterMenu,
-  ...restaurant.mainMenu,
-];
-console.log(food1, food3, otherFood);
-
-// Objects
-const { sat, ...weekdays } = restaurant.openingHours;
-console.log(sat, weekdays);
-
-// Functions
-const add = function (...numbers) {
-  let sum = 0;
-  for (let i = 0; i < numbers.length; i++) {
-    sum += numbers[i];
-  }
-  console.log(sum);
+const res1 = {
+  name: "Capri",
+  numGuests: 0,
 };
 
-add(2, 3);
-add(2, 3, 4, 6, 8, 9);
-add(2, 3, 3, 12, 4, 5, 6, 7);
+const res2 = {
+  name: "La Piazza",
+  owner: "Giovanni Nizza",
+};
 
-const x = [24, 5, 7];
+// res1.numGuests = res1.numGuests || 10; // This is the "old" way to set default values
+// res2.numGuests = res2.numGuests || 10;
 
-add(...x);
+// res1.numGuests ||= 10; // This is the ES6 way but it can't do anything with nullish values
+// res2.numGuests ||= 10;
+
+res1.numGuests ??= 10; // Nullish assignment operator
+res2.numGuests ??= 10;
+
+// res1.owner = res1.owner && "<ANONYMOUS>"; // This is the "old" way to set default values
+// res2.owner = res2.owner && "<ANONYMOUS>";
+
+res1.owner &&= "<ANONYMOUS>";
+res2.owner &&= "<ANONYMOUS>";
+
+console.log(res1);
+console.log(res2);
