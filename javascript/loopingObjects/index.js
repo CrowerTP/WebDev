@@ -1,4 +1,4 @@
-"use strict";
+"use-strict";
 
 const restaurant = {
   name: "Classico Italiano",
@@ -35,10 +35,33 @@ const restaurant = {
       `Order received! ${this.starterMenu[starterIndex]} and ${this.mainMenu[mainIndex]} will be delivered at ${time} to ${address}`
     );
   },
+
+  orderPasta: function (ing1 = "sour", ing2 = "water", ing3 = "egg") {
+    console.log(
+      `Here is your delicious pasta that contains ${ing1}, ${ing2} and ${ing3}`
+    );
+  },
 };
 
-const menu = [...restaurant.starterMenu, ...restaurant.mainMenu];
+// KEYS
+const properties = Object.keys(restaurant.openingHours);
+let openDays = `We are open on ${properties.length} days. `;
 
-for (const item of menu) {
-  console.log(item);
+for (const day of properties) {
+  openDays += `${day}, `;
+}
+
+console.log(openDays);
+
+// VALUES
+const values = Object.values(restaurant.openingHours);
+console.log(values);
+
+// ENTRIES
+const entries = Object.entries(restaurant.openingHours);
+console.log(entries);
+
+// example
+for (const [day, { open, close }] of entries) {
+  console.log(`On ${day}, we are open at ${open} and close at ${close}`);
 }
