@@ -63,6 +63,18 @@ const {
 } = game;
 console.log(team1, draw, team2);
 
+console.log("Goals that were scored");
+const printGoals = function (...players) {
+  console.log(`${players.length} goals were scored`);
+};
+printGoals("Davies", "Muller", "Lewandowski", "Kimmich");
+printGoals("Schulz", "Brandt");
+printGoals(...game.scored);
+
+console.log("Which team is more likely to win");
+team1 < team2 && console.log(`${game.team1} is more likely to win!`);
+team1 > team2 && console.log(`${game.team2} is more likely to win!`);
+
 // Coding Challenge #1
 
 /* 
