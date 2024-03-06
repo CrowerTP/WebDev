@@ -20,6 +20,7 @@ const transformer = function (str, fn) {
 transformer("JavaSCript is the best", upperFirstWord);
 transformer("JavaSCript is the best", oneWord);
 
+// JS uses callback all the time
 const sayHello = function () {
   console.log(`🖐`);
 };
