@@ -1,0 +1,14 @@
+D:\tor\sajat\WebDev\C#\MyWork\C# OOP Classes\bin\Debug\net8.0\C# OOP Classes.exe
+D:\tor\sajat\WebDev\C#\MyWork\C# OOP Classes\bin\Debug\net8.0\C# OOP Classes.deps.json
+D:\tor\sajat\WebDev\C#\MyWork\C# OOP Classes\bin\Debug\net8.0\C# OOP Classes.runtimeconfig.json
+D:\tor\sajat\WebDev\C#\MyWork\C# OOP Classes\bin\Debug\net8.0\C# OOP Classes.dll
+D:\tor\sajat\WebDev\C#\MyWork\C# OOP Classes\bin\Debug\net8.0\C# OOP Classes.pdb
+D:\tor\sajat\WebDev\C#\MyWork\C# OOP Classes\obj\Debug\net8.0\C# OOP Classes.GeneratedMSBuildEditorConfig.editorconfig
+D:\tor\sajat\WebDev\C#\MyWork\C# OOP Classes\obj\Debug\net8.0\C# OOP Classes.AssemblyInfoInputs.cache
+D:\tor\sajat\WebDev\C#\MyWork\C# OOP Classes\obj\Debug\net8.0\C# OOP Classes.AssemblyInfo.cs
+D:\tor\sajat\WebDev\C#\MyWork\C# OOP Classes\obj\Debug\net8.0\C# OOP Classes.csproj.CoreCompileInputs.cache
+D:\tor\sajat\WebDev\C#\MyWork\C# OOP Classes\obj\Debug\net8.0\C# OOP Classes.dll
+D:\tor\sajat\WebDev\C#\MyWork\C# OOP Classes\obj\Debug\net8.0\refint\C# OOP Classes.dll
+D:\tor\sajat\WebDev\C#\MyWork\C# OOP Classes\obj\Debug\net8.0\C# OOP Classes.pdb
+D:\tor\sajat\WebDev\C#\MyWork\C# OOP Classes\obj\Debug\net8.0\C# OOP Classes.genruntimeconfig.cache
+D:\tor\sajat\WebDev\C#\MyWork\C# OOP Classes\obj\Debug\net8.0\ref\C# OOP Classes.dll
