@@ -1,0 +1,15 @@
+D:\tor\sajat\WebDev\git_home\C#\MyWork\AccessModifiers\bin\Debug\net8.0\AccessModifiers.exe
+D:\tor\sajat\WebDev\git_home\C#\MyWork\AccessModifiers\bin\Debug\net8.0\AccessModifiers.deps.json
+D:\tor\sajat\WebDev\git_home\C#\MyWork\AccessModifiers\bin\Debug\net8.0\AccessModifiers.runtimeconfig.json
+D:\tor\sajat\WebDev\git_home\C#\MyWork\AccessModifiers\bin\Debug\net8.0\AccessModifiers.dll
+D:\tor\sajat\WebDev\git_home\C#\MyWork\AccessModifiers\bin\Debug\net8.0\AccessModifiers.pdb
+D:\tor\sajat\WebDev\git_home\C#\MyWork\AccessModifiers\obj\Debug\net8.0\AccessModifiers.GeneratedMSBuildEditorConfig.editorconfig
+D:\tor\sajat\WebDev\git_home\C#\MyWork\AccessModifiers\obj\Debug\net8.0\AccessModifiers.AssemblyInfoInputs.cache
+D:\tor\sajat\WebDev\git_home\C#\MyWork\AccessModifiers\obj\Debug\net8.0\AccessModifiers.AssemblyInfo.cs
+D:\tor\sajat\WebDev\git_home\C#\MyWork\AccessModifiers\obj\Debug\net8.0\AccessModifiers.csproj.CoreCompileInputs.cache
+D:\tor\sajat\WebDev\git_home\C#\MyWork\AccessModifiers\obj\Debug\net8.0\AccessModifiers.sourcelink.json
+D:\tor\sajat\WebDev\git_home\C#\MyWork\AccessModifiers\obj\Debug\net8.0\AccessModifiers.dll
+D:\tor\sajat\WebDev\git_home\C#\MyWork\AccessModifiers\obj\Debug\net8.0\refint\AccessModifiers.dll
+D:\tor\sajat\WebDev\git_home\C#\MyWork\AccessModifiers\obj\Debug\net8.0\AccessModifiers.pdb
+D:\tor\sajat\WebDev\git_home\C#\MyWork\AccessModifiers\obj\Debug\net8.0\AccessModifiers.genruntimeconfig.cache
+D:\tor\sajat\WebDev\git_home\C#\MyWork\AccessModifiers\obj\Debug\net8.0\ref\AccessModifiers.dll

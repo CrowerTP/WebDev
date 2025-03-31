@@ -1,0 +1,15 @@
+D:\tor\sajat\WebDev\git_home\C#\MyWork\Indexers\obj\Debug\net8.0\Indexers.GeneratedMSBuildEditorConfig.editorconfig
+D:\tor\sajat\WebDev\git_home\C#\MyWork\Indexers\obj\Debug\net8.0\Indexers.AssemblyInfoInputs.cache
+D:\tor\sajat\WebDev\git_home\C#\MyWork\Indexers\obj\Debug\net8.0\Indexers.AssemblyInfo.cs
+D:\tor\sajat\WebDev\git_home\C#\MyWork\Indexers\obj\Debug\net8.0\Indexers.csproj.CoreCompileInputs.cache
+D:\tor\sajat\WebDev\git_home\C#\MyWork\Indexers\obj\Debug\net8.0\Indexers.sourcelink.json
+D:\tor\sajat\WebDev\git_home\C#\MyWork\Indexers\bin\Debug\net8.0\Indexers.exe
+D:\tor\sajat\WebDev\git_home\C#\MyWork\Indexers\bin\Debug\net8.0\Indexers.deps.json
+D:\tor\sajat\WebDev\git_home\C#\MyWork\Indexers\bin\Debug\net8.0\Indexers.runtimeconfig.json
+D:\tor\sajat\WebDev\git_home\C#\MyWork\Indexers\bin\Debug\net8.0\Indexers.dll
+D:\tor\sajat\WebDev\git_home\C#\MyWork\Indexers\bin\Debug\net8.0\Indexers.pdb
+D:\tor\sajat\WebDev\git_home\C#\MyWork\Indexers\obj\Debug\net8.0\Indexers.dll
+D:\tor\sajat\WebDev\git_home\C#\MyWork\Indexers\obj\Debug\net8.0\refint\Indexers.dll
+D:\tor\sajat\WebDev\git_home\C#\MyWork\Indexers\obj\Debug\net8.0\Indexers.pdb
+D:\tor\sajat\WebDev\git_home\C#\MyWork\Indexers\obj\Debug\net8.0\Indexers.genruntimeconfig.cache
+D:\tor\sajat\WebDev\git_home\C#\MyWork\Indexers\obj\Debug\net8.0\ref\Indexers.dll

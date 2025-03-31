@@ -1,14 +1,12 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\tor\\sajat\\WebDev\\C#\\MyWork\\C# OOP Classes\\",
+  "WorkspaceRootPath": "D:\\tor\\sajat\\WebDev\\git_home\\C#\\MyWork\\C# OOP Classes\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8F6BF736-34C6-40F7-835B-3F3BB0A0F7F5}|C# OOP Classes.csproj|d:\\tor\\sajat\\webdev\\c#\\mywork\\c# oop classes\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F6BF736-34C6-40F7-835B-3F3BB0A0F7F5}|C# OOP Classes.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BD40ED6E-6CCF-4845-B243-9413A18A44C4}|..\\Post_exercise\\Post_exercise.csproj|d:\\tor\\sajat\\webdev\\git_home\\c#\\mywork\\post_exercise\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8F6BF736-34C6-40F7-835B-3F3BB0A0F7F5}|C# OOP Classes.csproj|d:\\tor\\sajat\\webdev\\c#\\mywork\\c# oop classes\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F6BF736-34C6-40F7-835B-3F3BB0A0F7F5}|C# OOP Classes.csproj|solutionrelative:person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BD40ED6E-6CCF-4845-B243-9413A18A44C4}|..\\Post_exercise\\Post_exercise.csproj|d:\\tor\\sajat\\webdev\\git_home\\c#\\mywork\\post_exercise\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,27 +21,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Person.cs",
-              "DocumentMoniker": "D:\\tor\\sajat\\WebDev\\C#\\MyWork\\C# OOP Classes\\Person.cs",
-              "RelativeDocumentMoniker": "Person.cs",
-              "ToolTip": "D:\\tor\\sajat\\WebDev\\C#\\MyWork\\C# OOP Classes\\Person.cs",
-              "RelativeToolTip": "Person.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABQAAAAeAAAA",
+              "Title": "Post.cs",
+              "DocumentMoniker": "D:\\tor\\sajat\\WebDev\\git_home\\C#\\MyWork\\Post_exercise\\Post.cs",
+              "RelativeDocumentMoniker": "..\\Post_exercise\\Post.cs",
+              "ToolTip": "D:\\tor\\sajat\\WebDev\\git_home\\C#\\MyWork\\Post_exercise\\Post.cs",
+              "RelativeToolTip": "..\\Post_exercise\\Post.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-04T17:45:08.342Z",
+              "WhenOpened": "2024-10-14T14:17:42.713Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\tor\\sajat\\WebDev\\C#\\MyWork\\C# OOP Classes\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\tor\\sajat\\WebDev\\C#\\MyWork\\C# OOP Classes\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAaAAAA",
+              "DocumentMoniker": "D:\\tor\\sajat\\WebDev\\git_home\\C#\\MyWork\\Post_exercise\\Program.cs",
+              "RelativeDocumentMoniker": "..\\Post_exercise\\Program.cs",
+              "ToolTip": "D:\\tor\\sajat\\WebDev\\git_home\\C#\\MyWork\\Post_exercise\\Program.cs",
+              "RelativeToolTip": "..\\Post_exercise\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-04T12:27:23.78Z",
+              "WhenOpened": "2024-10-14T14:17:15.357Z",
               "EditorCaption": ""
             }
           ]

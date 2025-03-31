@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\tor\\sajat\\WebDev\\git_home\\C#\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\tor\\sajat\\WebDev\\git_home\\C#\\MyWork\\Indexers\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MyWork\\Indexers\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\tor\\sajat\\WebDev\\git_home\\C#\\MyWork\\Indexers\\HttpCookie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MyWork\\Indexers\\HttpCookie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\tor\\sajat\\WebDev\\git_home\\C#\\MyWork\\Indexers\\Program.cs",
+              "RelativeDocumentMoniker": "MyWork\\Indexers\\Program.cs",
+              "ToolTip": "D:\\tor\\sajat\\WebDev\\git_home\\C#\\MyWork\\Indexers\\Program.cs",
+              "RelativeToolTip": "MyWork\\Indexers\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T12:41:49.235Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HttpCookie.cs",
+              "DocumentMoniker": "D:\\tor\\sajat\\WebDev\\git_home\\C#\\MyWork\\Indexers\\HttpCookie.cs",
+              "RelativeDocumentMoniker": "MyWork\\Indexers\\HttpCookie.cs",
+              "ToolTip": "D:\\tor\\sajat\\WebDev\\git_home\\C#\\MyWork\\Indexers\\HttpCookie.cs",
+              "RelativeToolTip": "MyWork\\Indexers\\HttpCookie.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T12:30:00.046Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

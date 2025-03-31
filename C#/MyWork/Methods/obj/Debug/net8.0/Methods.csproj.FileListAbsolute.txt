@@ -1,0 +1,15 @@
+D:\tor\sajat\WebDev\git_home\C#\MyWork\Methods\bin\Debug\net8.0\Methods.exe
+D:\tor\sajat\WebDev\git_home\C#\MyWork\Methods\bin\Debug\net8.0\Methods.deps.json
+D:\tor\sajat\WebDev\git_home\C#\MyWork\Methods\bin\Debug\net8.0\Methods.runtimeconfig.json
+D:\tor\sajat\WebDev\git_home\C#\MyWork\Methods\bin\Debug\net8.0\Methods.dll
+D:\tor\sajat\WebDev\git_home\C#\MyWork\Methods\bin\Debug\net8.0\Methods.pdb
+D:\tor\sajat\WebDev\git_home\C#\MyWork\Methods\obj\Debug\net8.0\Methods.GeneratedMSBuildEditorConfig.editorconfig
+D:\tor\sajat\WebDev\git_home\C#\MyWork\Methods\obj\Debug\net8.0\Methods.AssemblyInfoInputs.cache
+D:\tor\sajat\WebDev\git_home\C#\MyWork\Methods\obj\Debug\net8.0\Methods.AssemblyInfo.cs
+D:\tor\sajat\WebDev\git_home\C#\MyWork\Methods\obj\Debug\net8.0\Methods.csproj.CoreCompileInputs.cache
+D:\tor\sajat\WebDev\git_home\C#\MyWork\Methods\obj\Debug\net8.0\Methods.sourcelink.json
+D:\tor\sajat\WebDev\git_home\C#\MyWork\Methods\obj\Debug\net8.0\Methods.dll
+D:\tor\sajat\WebDev\git_home\C#\MyWork\Methods\obj\Debug\net8.0\refint\Methods.dll
+D:\tor\sajat\WebDev\git_home\C#\MyWork\Methods\obj\Debug\net8.0\Methods.pdb
+D:\tor\sajat\WebDev\git_home\C#\MyWork\Methods\obj\Debug\net8.0\Methods.genruntimeconfig.cache
+D:\tor\sajat\WebDev\git_home\C#\MyWork\Methods\obj\Debug\net8.0\ref\Methods.dll

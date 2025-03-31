@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\tor\\sajat\\WebDev\\C#\\MyWork\\C# OOP Classes\\C# OOP Classes.csproj",
+      "projectUniqueName": "D:\\tor\\sajat\\WebDev\\git_home\\C#\\MyWork\\C# OOP Classes\\C# OOP Classes.csproj",
       "projectName": "C# OOP Classes",
-      "projectPath": "D:\\tor\\sajat\\WebDev\\C#\\MyWork\\C# OOP Classes\\C# OOP Classes.csproj",
+      "projectPath": "D:\\tor\\sajat\\WebDev\\git_home\\C#\\MyWork\\C# OOP Classes\\C# OOP Classes.csproj",
       "packagesPath": "C:\\Users\\z004b1sv\\.nuget\\packages\\",
-      "outputPath": "D:\\tor\\sajat\\WebDev\\C#\\MyWork\\C# OOP Classes\\obj\\",
+      "outputPath": "D:\\tor\\sajat\\WebDev\\git_home\\C#\\MyWork\\C# OOP Classes\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\z004b1sv\\AppData\\Roaming\\NuGet\\NuGet.Config",

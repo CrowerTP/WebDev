@@ -1,0 +1,15 @@
+D:\tor\sajat\WebDev\git_home\C#\MyWork\Fields\bin\Debug\net8.0\Fields.exe
+D:\tor\sajat\WebDev\git_home\C#\MyWork\Fields\bin\Debug\net8.0\Fields.deps.json
+D:\tor\sajat\WebDev\git_home\C#\MyWork\Fields\bin\Debug\net8.0\Fields.runtimeconfig.json
+D:\tor\sajat\WebDev\git_home\C#\MyWork\Fields\bin\Debug\net8.0\Fields.dll
+D:\tor\sajat\WebDev\git_home\C#\MyWork\Fields\bin\Debug\net8.0\Fields.pdb
+D:\tor\sajat\WebDev\git_home\C#\MyWork\Fields\obj\Debug\net8.0\Fields.GeneratedMSBuildEditorConfig.editorconfig
+D:\tor\sajat\WebDev\git_home\C#\MyWork\Fields\obj\Debug\net8.0\Fields.AssemblyInfoInputs.cache
+D:\tor\sajat\WebDev\git_home\C#\MyWork\Fields\obj\Debug\net8.0\Fields.AssemblyInfo.cs
+D:\tor\sajat\WebDev\git_home\C#\MyWork\Fields\obj\Debug\net8.0\Fields.csproj.CoreCompileInputs.cache
+D:\tor\sajat\WebDev\git_home\C#\MyWork\Fields\obj\Debug\net8.0\Fields.sourcelink.json
+D:\tor\sajat\WebDev\git_home\C#\MyWork\Fields\obj\Debug\net8.0\Fields.dll
+D:\tor\sajat\WebDev\git_home\C#\MyWork\Fields\obj\Debug\net8.0\refint\Fields.dll
+D:\tor\sajat\WebDev\git_home\C#\MyWork\Fields\obj\Debug\net8.0\Fields.pdb
+D:\tor\sajat\WebDev\git_home\C#\MyWork\Fields\obj\Debug\net8.0\Fields.genruntimeconfig.cache
+D:\tor\sajat\WebDev\git_home\C#\MyWork\Fields\obj\Debug\net8.0\ref\Fields.dll

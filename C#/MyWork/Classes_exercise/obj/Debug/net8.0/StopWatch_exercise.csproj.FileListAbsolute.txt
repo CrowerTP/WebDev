@@ -1,0 +1,15 @@
+D:\tor\sajat\WebDev\git_home\C#\MyWork\Classes_exercise\bin\Debug\net8.0\StopWatch_exercise.exe
+D:\tor\sajat\WebDev\git_home\C#\MyWork\Classes_exercise\bin\Debug\net8.0\StopWatch_exercise.deps.json
+D:\tor\sajat\WebDev\git_home\C#\MyWork\Classes_exercise\bin\Debug\net8.0\StopWatch_exercise.runtimeconfig.json
+D:\tor\sajat\WebDev\git_home\C#\MyWork\Classes_exercise\bin\Debug\net8.0\StopWatch_exercise.dll
+D:\tor\sajat\WebDev\git_home\C#\MyWork\Classes_exercise\bin\Debug\net8.0\StopWatch_exercise.pdb
+D:\tor\sajat\WebDev\git_home\C#\MyWork\Classes_exercise\obj\Debug\net8.0\StopWatch_exercise.GeneratedMSBuildEditorConfig.editorconfig
+D:\tor\sajat\WebDev\git_home\C#\MyWork\Classes_exercise\obj\Debug\net8.0\StopWatch_exercise.AssemblyInfoInputs.cache
+D:\tor\sajat\WebDev\git_home\C#\MyWork\Classes_exercise\obj\Debug\net8.0\StopWatch_exercise.AssemblyInfo.cs
+D:\tor\sajat\WebDev\git_home\C#\MyWork\Classes_exercise\obj\Debug\net8.0\StopWatch_exercise.csproj.CoreCompileInputs.cache
+D:\tor\sajat\WebDev\git_home\C#\MyWork\Classes_exercise\obj\Debug\net8.0\StopWatch_exercise.sourcelink.json
+D:\tor\sajat\WebDev\git_home\C#\MyWork\Classes_exercise\obj\Debug\net8.0\StopWatch_exercise.dll
+D:\tor\sajat\WebDev\git_home\C#\MyWork\Classes_exercise\obj\Debug\net8.0\refint\StopWatch_exercise.dll
+D:\tor\sajat\WebDev\git_home\C#\MyWork\Classes_exercise\obj\Debug\net8.0\StopWatch_exercise.pdb
+D:\tor\sajat\WebDev\git_home\C#\MyWork\Classes_exercise\obj\Debug\net8.0\StopWatch_exercise.genruntimeconfig.cache
+D:\tor\sajat\WebDev\git_home\C#\MyWork\Classes_exercise\obj\Debug\net8.0\ref\StopWatch_exercise.dll

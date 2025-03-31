@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("C# OOP Classes")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0c594c46898c4a381d2eb53c35be3e7f2b3d746d")]
 [assembly: System.Reflection.AssemblyProductAttribute("C# OOP Classes")]
 [assembly: System.Reflection.AssemblyTitleAttribute("C# OOP Classes")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
